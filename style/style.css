@@ -43,8 +43,8 @@ header {
 }
 
 .section-blue {
-    padding-top: 40px;
-    background-color: lightskyblue;
+    border-top: 40px solid lightskyblue;
+    background-color: blue;
     margin-bottom: 10px;
 }
 
@@ -57,20 +57,19 @@ header {
     width: 30%;
     height: 300px;
     background-color: lightskyblue;
-    border-left: 10px solid blue;
 }
 
 .principal {
-    width: 40%;
+    width: calc(40% - 20px);
     height: 300px;
     background-color: lightskyblue;
+    margin: 0 10px;
 }
 
 .sidebar-right {
     width: 30%;
     height: 300px;
     background-color: lightskyblue;
-    border-right: 10px solid blue;
 }
 
 
